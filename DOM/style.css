@@ -1,0 +1,46 @@
+#niceBtn {
+    position: absolute;
+    top: 0;
+    margin-top: .5em;
+    background-color: aquamarine;
+}   
+
+#textInput, #textBtn{
+    position: relative;
+    top: 30px;
+}
+
+#mouseOverDiv{
+    position: relative;
+    top: 25px;
+}
+
+#para{
+    position: relative;
+    top: -15px;
+    user-select: none;
+}
+
+#btn2{
+    position: relative;
+    top: -15px;
+}
+#div2 {
+    position: relative;
+    top: -10px;
+}
+
+#friendsBtn {
+    position: relative;
+    top: 125px;
+}
+
+#friendsUl {
+    position: absolute;
+    top: 225px;
+}
+
+#para,#mouseOverDiv{
+    cursor: pointer;
+}
+
