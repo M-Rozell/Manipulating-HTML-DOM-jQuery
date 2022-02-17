@@ -3,7 +3,8 @@
     top: 0;
     margin-top: .5em;
     background-color: aquamarine;
-}   
+}  
+
 
 #textInput, #textBtn{
     position: relative;
@@ -13,7 +14,9 @@
 #mouseOverDiv{
     position: relative;
     top: 25px;
+    
 }
+
 
 #para{
     position: relative;
@@ -40,7 +43,11 @@
     top: 225px;
 }
 
-#para,#mouseOverDiv{
+#para,#mouseOverDiv,#textInput, #textBtn,#niceBtn,#friendsBtn,#btn2{
     cursor: pointer;
+}
+
+#mouseOverDiv:hover{
+    color: white;
 }
 
