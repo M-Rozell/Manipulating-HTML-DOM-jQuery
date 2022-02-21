@@ -1,15 +1,12 @@
 
 let friendsArr = ["Cat", "James", "Rachel", "Tommy", "Pat", "Sueanne", "Robert", "Mikey", "Erin", "Oliver"];
 
-
 document.addEventListener('DOMContentLoaded', function () {
-
 
     let btn = document.createElement('button');
     btn.innerText = 'Push It!!';
     btn.id = 'niceBtn';
     document.body.appendChild(btn);
-
 
     btn.addEventListener("click", function () {
         alert("You look really nice today!");
@@ -33,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
             btn2.disabled = true;
         }
     })
-
 
     let btn3 = document.getElementById("friendsBtn");
     let ul3 = document.getElementById("friendsUl");

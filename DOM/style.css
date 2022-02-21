@@ -5,7 +5,6 @@
     background-color: aquamarine;
 }  
 
-
 #textInput, #textBtn{
     position: relative;
     top: 30px;
@@ -14,9 +13,7 @@
 #mouseOverDiv{
     position: relative;
     top: 25px;
-    
 }
-
 
 #para{
     position: relative;
@@ -28,6 +25,7 @@
     position: relative;
     top: -15px;
 }
+
 #div2 {
     position: relative;
     top: -10px;
